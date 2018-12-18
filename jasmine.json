@@ -1,0 +1,9 @@
+{
+    "spec_dir": ".",
+    "spec_files": [
+        "dist/**/*.spec.js"
+    ],
+    "helpers": [
+      "dist/jasmine-helpers/reporters.js"
+    ]
+}

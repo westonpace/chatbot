@@ -7,6 +7,18 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "Debug",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run-script",
+        "debug"
+      ],
+      "console": "integratedTerminal",
+      "port": 9229
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "Run Jasmine Tests",
       "runtimeExecutable": "npm",
       "runtimeArgs": [
